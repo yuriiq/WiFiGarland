@@ -1,6 +1,6 @@
 # WiFiGarland
 WiFiGarland for Adruino. Required components:
-- ESP8266 (analogue Adruino)
+- ESP8266 (Adruino)
 - Relay like SRD-05VDC-SL-C (3 items)
 - RGB led stripe
 - Power Supply Driver For LED Strip (12V)
