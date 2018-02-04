@@ -1,0 +1,19 @@
+#ifndef common_h
+#define common_h
+#include <Arduino.h>
+
+static const int redPort = D3; // 5
+static const int greenPort = D4; // 4
+static const int bluePort = D5;  // 14
+static const int blackPort = D6;
+static const uint32_t oneSecond = ESP.getCpuFreqMHz() * 1000000;
+
+static const char * BOTtoken = "....."; // Send messagw to @BotFather for create Telegram Bot Account and get token
+static const char * ssid = "WiFiSSIDName";
+static const char * pass = "PasswordForWiFI";
+static const char * OkMessage = "OK";
+
+void lowPorts();
+
+#endif
+
